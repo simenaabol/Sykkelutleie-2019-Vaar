@@ -1,0 +1,40 @@
+{
+  "name": "BRA",
+  "version": "0.1.0",
+  "description": "En applikasjon for et sykkelutleiefirma",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://gitlab.com/jonkanon/sykkelutleie",
+  "keywords": [
+    "sykkelutleie",
+    "bikeloan",
+    "gruppe5"
+  ],
+  "dependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.3.0",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-flow": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "bcryptjs": "^2.4.3",
+    "core-js": "^2.6.5",
+    "date-and-time": "^0.6.3",
+    "electron": "^4.0.2",
+    "electron-reload": "^1.4.0",
+    "eslint-plugin-react": "^7.12.4",
+    "mysql": "^2.16.0",
+    "random-facts": "^1.0.6",
+    "react-router-dom": "^4.3.1",
+    "react-router-relative-link": "^4.0.2",
+    "react-simplified": "^1.5.2",
+    "react-slippy-map": "^0.12.0",
+    "recharts": "^1.5.0"
+  },
+  "devDependencies": {
+    "electron-packager": "^13.1.1"
+  }
+}
